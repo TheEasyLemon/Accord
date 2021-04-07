@@ -1,5 +1,5 @@
 import React from 'react';
-import { LogoutScreen } from './screens/LogoutScreen';
+import { LogoutScreen } from './src/screens/LogoutScreen';
 
 export default function App() {
   console.log("Running now!")
