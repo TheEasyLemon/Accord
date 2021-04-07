@@ -8,18 +8,17 @@ export const LogoutScreen = () => {
         <View style={styles.container}>
             <Icon name='hands'
                   type='font-awesome-5'></Icon>
-            <Text>Accord</Text>
+            <Text>Subway</Text>
             <StatusBar style="auto" />
         </View>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#FFAEC0',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
-  
+  container: {
+    flex: 1,
+    backgroundColor: '#FFAEC0',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
