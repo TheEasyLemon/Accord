@@ -1,9 +1,14 @@
 import React from 'react';
-import { LogoutScreen } from './src/screens/LogoutScreen';
+import { NavigationContainer } from '@react-navigation/native'
 
-export default function App() {
-  console.log("Running now!")
+import { AppStackScreens } from './src/stacks/AppStackScreens';
+
+const App = () => {
   return (
-    <LogoutScreen />
-  );
+    <NavigationContainer>
+      <AppStackScreens />
+    </NavigationContainer>
+  )
 }
+
+export default App;

@@ -3,12 +3,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Icon } from 'react-native-elements'
 
-export const LogoutScreen = () => {
+export const SignInScreen = () => {
     return (
         <View style={styles.container}>
             <Icon name='hands'
                   type='font-awesome-5'></Icon>
-            <Text>Subway</Text>
+            <Text>Sign In</Text>
             <StatusBar style="auto" />
         </View>
     );
